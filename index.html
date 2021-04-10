@@ -6,26 +6,29 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min/.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
         
-        <link rel="stylesheet" text="text/css" href="quiz game.css">
+        <link rel="stylesheet" text="text/css" href="style.css">
     </head>
     <body>
+        <center>
         <div class="container">
             <h1 style="text-align: center;">The Math Quiz Game</h1>
-    <h2 id="score">score: 0</h2>
-            <button class="btn btn-warning" onclick="updatescore()">Update the score</button>
-            <br>
-            <br>
-    
-            <button class="btn btn-success" onclick="savescore()">Save score</button>
-            <br>
-            <br>
-    
-            <button class="btn btn-info" onclick="nextpage()">Next page</button>
-        </div>
+                
+                    
+                    <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+                        <h3>Player 1 Login for the game</h3> <label>User Name:</label> <input type="text" id="player1_name_input"
+                            class="form-control" placeholder="Player 1 Name"> <br>
+                    </div>
+                    <br>
+                    <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+                        <h3>Player 2 Login for the game</h3> <label>User Name:</label> <input type="text" id="player2_name_input"
+                            class="form-control" placeholder="Player 2 Name"> <br>
+                    </div> <br> <button style="width:30%" class="btn btn-primary" onclick="addUser()">Log in</button>
+            </center>
+            
+            </body>
         
     <script src="the math quiz game.js"></script>
-    </body>
-    </html>
-    </body>
+    
 </html>
